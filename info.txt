@@ -1,0 +1,38 @@
+Étape 1 : Préparation du dossier et téléchargement du Bootstrap
+Pour que le système de mise à jour fonctionne, il faut d'abord placer l'utilitaire sur l'ordinateur.
+- Créez un dossier nommé packwiz directement à un emplacement stable comme : C:\packwiz\
+- Téléchargez le fichier de liaison en cliquant sur ce lien : https://github.com/DAAlain/NeoGame/raw/refs/heads/main/packwiz-installer-bootstrap.jar
+- Enregistrez ou déplacez ce fichier téléchargé pour qu'il se trouve exactement ici : C:\packwiz\packwiz-installer-bootstrap.jar
+
+Étape 2 : Installation et configuration du Launcher
+- Téléchargez et installez Prism Launcher depuis le site officiel : prismlauncher.org.
+- Ouvrez le launcher et connectez votre compte Minecraft (Microsoft).
+- Cliquez sur le bouton Ajouter une instance (en haut à gauche).
+- Configurez l'instance comme suit :
+	- Nom : Votre choix
+	- Version de Minecraft : 1.21.1
+	- Mod Loader : NeoForge version 21.1.320
+- Cliquez sur OK pour valider la création.
+
+Étape 3 : Allocation de la mémoire (RAM)
+Le modpack nécessite une configuration de mémoire minimale pour fonctionner de manière fluide.
+- Faites un clic droit sur l'instance NeoGame -> Modifier.
+- Dans le menu de gauche, allez dans l'onglet Paramètres (settings) puis Java, puis cochez la case Mémoire.
+- Ajustez les valeurs suivantes selon la puissance de l'ordinateur :
+	- Mémoire minimale : 1024 Mo
+	- Mémoire maximale : 6144 Mo (6 Go conseillés) ou 8192 Mo (8 Go pour un confort optimal).
+
+Étape 4 : Configuration de la commande de mise à jour automatique
+Cette commande va lier le launcher au fichier d'installation créé à l'étape 1 afin de récupérer automatiquement les mods à chaque lancement.
+- Dans la fenêtre de modification de l'instance, cliquez sur l'onglet Parametres (settings) puis Commandes custom (Custom Commands) (dans le menu de gauche).
+- Cochez la case Commandes personnalisées (Override Global Settings).
+- Dans le champ de texte nommé Commande de pré-lancement (Pre-launch command), collez l'intégralité de la ligne suivante :
+
+"$INST_JAVA" -jar "C:\packwiz\packwiz-installer-bootstrap.jar" -g https://raw.githubusercontent.com/DAAlain/NeoGame/refs/heads/main/pack.toml
+
+- Cliquez sur Fermer en bas à droite pour sauvegarder les modifications.
+
+
+
+Interdire windows de modifier les fichiers :
+- git config core.autocrlf false
