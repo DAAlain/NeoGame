@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "README.md"
+hash = "dc8da797948275e75a90193583e96b3887bc40075c05b664552f5f3490648c45"
+
+[[files]]
 file = "config/create-client.toml"
 hash = "cce3eab1a290cc1f0eada00031f0577f661f883aee3438cf1139283c65d1f319"
 
@@ -34,23 +38,23 @@ hash = "1ac1fd9694773ef1ec8af42c9cc8a908a1b618fa6fb6031c27305383e97f70c7"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
-hash = "309df4ae96864c19eae41b646d58497c85a73b1fc3c584e772ef4d5822794baa"
+hash = "ea438fcf6868d97ba3d9f2f536b69b7f3e3e89b2906c83fe19d04701cd68abaf"
 
 [[files]]
 file = "config/jade/hide-entities.json"
-hash = "3741bb54a4535fb5a00fb0ee1f4386f3dd17834aebdf9e89c21fcd3307109709"
+hash = "bb8df3e278aa57b79c365a13e1a43b5ae30041c1221b7efc3bdaca9f67e97a15"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "f9f68a1557cdfab8394d2f4b54a2756d96451dcdddea4f5e04cb912b516ffa05"
+hash = "45ec624732d048532277f53a9f70955698cf6c003267ed6fbd4590dddf118742"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "b3c0a9bd26fa5d8eb7c629595f2792399a83337bee40fa80c0434e9c31db1c4a"
+hash = "0b8f8f50bf70d8e11c38f42818a0a74b4cec37cd151a7effa439e2c469ce5edb"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "c302f4304f9e843e2371a5ab849424ebdaed21f989ceb355f9e8f8421eec25d8"
+hash = "0f5814b495ff0ae94deefd8f15a6ff3dd83ca606f7287e0df50eced3f907e28e"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -58,7 +62,7 @@ hash = "702acd04d99445bce659d04fcc488e1a98c8a803983c31ae262b0f3a47fdc8d3"
 
 [[files]]
 file = "config/jei/blacklist.json"
-hash = "b4174dc6e985aa90be5002c14e94b956d8d586683c44b7b6710c44d08fb13648"
+hash = "251c94baa161629fa43a0d3ca07dee97b64886589fb4a64c747a93378d19cb74"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
@@ -90,7 +94,7 @@ hash = "7a6b337db3a692532b04189316a3ebd9bf14da291155ef7b31a90487ab2d59e1"
 
 [[files]]
 file = "config/jei/world/local/New_World__2/lookupHistory.json"
-hash = "e995dadf6e25b80a7c74f0a18cd7b33f88206b380fd1c056a7904f85f371ea7c"
+hash = "b047428da832408d2a4c95a43dfd0d6bb27de088e9d7302b39af2a36986a7a9b"
 
 [[files]]
 file = "config/mechtrowel-client.toml"
@@ -126,95 +130,99 @@ hash = "8c17330d9f9804cd1540b0f442c7f7b7d1dbd3ccb3e22f6c4af222753ffd49ac"
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "2f8f16f4688e813ad634eb26780afa6b29257964474a2a18b83db3092142ed5a"
+hash = "eb142ca24305c6a8c8855cffb19bb951f09a9da38c9bbd465a6986e0e8706793"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "4b0ca63279620ec9ba4c63820a9d4f9ceea9b717227137ea19e5c420c820f858"
+hash = "3c42549c15841587eb098a4e8c8b18f652788005f3b924d67b5679d71fbf64cd"
 metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "efc2c4fe9e2cc169aff61a6b7a41ea9bc7a22a90aadf0776b22de647ddf3cef6"
+hash = "f59cd788e84d99e06d817007239d704411cc68b1bcfba58d3ed21e319f55dde0"
 metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "e739b7355ab3cfba2e729f8f0b51eafc3d9c3afb19ee30ac7b311631610c5e66"
+hash = "25c6166765480648a5ee96cac34187f08416a53344c82f4bbd6b299fe1d4aec0"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "2adc7a51ce009ed3e7c1e0d22fd71ad2c152796d8e0ab6cda1447bf89d6404bb"
+hash = "79dfe8c86f9c0d23f8da17bb41a8ceec865151bba7764fef1a8c94c26b8b62af"
 metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "3c13beafeb69d23d2a43805cfa3d79b7e458cfb8f9ce603075b84d95da630d4b"
+hash = "86ee892bcba1eda6dd1c89add23766adabc2d55256b23cae31b8973a9896cbed"
 metafile = true
 
 [[files]]
 file = "mods/macaws-bridges.pw.toml"
-hash = "de4007e4d9e63f4470c442bc9b568c2c5b6d93970ac881068cccde432ca0058c"
+hash = "64e686d0a378c682b35c688c50a0bc16d68c6d74a8ebafef7e2d1efe71029b7d"
 metafile = true
 
 [[files]]
 file = "mods/macaws-doors.pw.toml"
-hash = "5b6e513d543f82ffd9f01ef217e3abb7b55da78184bf52f07d2cc305f1ce16f7"
+hash = "8c76cda2d3abbe0b3106cc168dcb16acd6b7220c8bb9b387df0c8303b0af4554"
 metafile = true
 
 [[files]]
 file = "mods/macaws-fences-and-walls.pw.toml"
-hash = "da326d59e505ce18857f1b72be406a03c7b7f96e09c0953cf1fff194c7ff58cd"
+hash = "612590640079ec7fc0bb80ca1999f2f8f83c9c9d4e4f9ff531af983774b0c16b"
 metafile = true
 
 [[files]]
 file = "mods/macaws-furniture.pw.toml"
-hash = "e31aebea2649cad495197a6736570f59b286d75c7a08c06a8a33fd84abd94817"
+hash = "3c68b25de1670fef43d788fa5c709180d08f493ac7a8462130f99cf777931561"
 metafile = true
 
 [[files]]
 file = "mods/macaws-lights-and-lamps.pw.toml"
-hash = "33ff6177b5e19c7ef130b6076ff6166a3994b511df06f3afcbc02af9212f29c8"
+hash = "202dfe38e315df467425143a7f895cc3570c11fd5461232184a171c523d7836f"
 metafile = true
 
 [[files]]
 file = "mods/macaws-paintings.pw.toml"
-hash = "59e096e0fa6ddb2b95d3705d605445a084e5b4dae9d54ec8d8b84dc881264a22"
+hash = "e20ea9c38df3c1a1a679e477a4f946fc174bd39e27800010ff23c52dd462dfeb"
 metafile = true
 
 [[files]]
 file = "mods/macaws-paths-and-pavings.pw.toml"
-hash = "37e96fec653b3a8463d08eec8264fb8f97a9497b8a50723dd659c193a70f021f"
+hash = "6f013f4199ec23fe562a3087811c083b30be131aef74c8d5ffa12da06bc9ff71"
 metafile = true
 
 [[files]]
 file = "mods/macaws-roofs.pw.toml"
-hash = "8b0e9d3c66f2a5276a3e1eaaab073f4e41f8d352c6d282e724129c23f0940bfc"
+hash = "e206a848df2f857d0d7b9170af70ec57e789fc3d0303bcd3984c1cfd7e516e46"
 metafile = true
 
 [[files]]
 file = "mods/macaws-trapdoors.pw.toml"
-hash = "ed2fb750e3b70e31756408d1d6b6007c6fb39e80091cbaa0e60117a434821473"
+hash = "12a00df15d532fad952e9b1e9057e437662c29e73b5f5b3da1d47a43f00aa9ab"
 metafile = true
 
 [[files]]
 file = "mods/macaws-windows.pw.toml"
-hash = "85b0bb55b80d196b879fe6755cd7cc509f6ecd5706bb25acd43826da5335dd57"
+hash = "010d936ef11ba52248875b80d5014216ac9802f878a51d410d219493f87c8e72"
 metafile = true
 
 [[files]]
 file = "mods/mech-trowel.pw.toml"
-hash = "ba39e13284359304e6482e3f6722803a1f3e4909bbccc950c569a01838fea7ab"
+hash = "0d2d89a86efef9b06f49266b8b1e5a7b2581c4f5a809bbd0c01af23941835033"
 metafile = true
 
 [[files]]
 file = "mods/slice-and-dice.pw.toml"
-hash = "924590dd9b32e32f209e4e1986347b90355c07763e9a27dc79caa9cb12efeab5"
+hash = "fe459e616cb6562aea6a6cfae3671f366958c85c97d445b060f7e3d3519dd7cc"
 metafile = true
 
 [[files]]
+file = "packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+
+[[files]]
 file = "resourcepacks/faithful-64x.pw.toml"
-hash = "78131401cedbd2212c36ce24c7e547d98cd0ecf6d1a97844daaea2c825b8f137"
+hash = "9abee7e39963436ef63447abf8959dfa3fe7889d377e63aac25455363db1d9b3"
 metafile = true
