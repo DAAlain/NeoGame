@@ -1,0 +1,8 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mcwlights:chain_lantern"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"mcwlights:chain_wall_lantern"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:tiled_glass"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:tiled_glass_pane"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:red_table_cloth"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
